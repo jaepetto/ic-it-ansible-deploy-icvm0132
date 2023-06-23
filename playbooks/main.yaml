@@ -42,7 +42,7 @@
         node_exporter_host: '0.0.0.0'
         node_exporter_port: 9100
 
-    - role: ic_it.simple_ldap_authentication
+    - role: jaepetto.ansible_simple_ldap_authentication
       vars:
         trusted_group_name: 'test-claire-build-machine'
         trusted_group_id: 'S31980'

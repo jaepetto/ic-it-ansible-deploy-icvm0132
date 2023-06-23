@@ -15,3 +15,4 @@
   version: main
   name: deploy_ic_it_ssh_keys
 - geerlingguy.node_exporter
+- jaepetto.ansible_simple_ldap_authentication
