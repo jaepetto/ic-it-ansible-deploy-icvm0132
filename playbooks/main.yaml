@@ -33,7 +33,7 @@
     - role: geerlingguy.docker
       vars:
         docker_daemon_options:
-          data-root: /srv/docker
+          data-root: /var/lib/docker
 
     - role: deploy_ic_it_ssh_keys
 
